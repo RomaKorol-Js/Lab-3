@@ -1,0 +1,31 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.wide_line {
+  width: 50vw;
+}
+.big_line {
+  height: 5px;
+  width: 80vw;
+  background-color: black;
+}
+.small_line {
+  height: 1px;
+  width: 20vw;
+  background-color: black;
+}
+.colored_line {
+  height: 1px;
+  width: 65vw;
+  background-color: aqua;
+}
+.rotated_line {
+  width: 750px;
+  height: 7px;
+}
+.rotated_line:hover {
+  transform: rotate(10deg);
+  transition: transform 3s ease-in-out;
+}
