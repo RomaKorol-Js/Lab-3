@@ -1,3 +1,16 @@
+body {
+  background-color: aquamarine;
+  color: blueviolet;
+}
+a {
+  color: rgb(255, 0, 0);
+}
+a:visited {
+  color: rgb(255, 0, 247);
+}
+a:hover {
+  color: blueviolet;
+}
 h1 {
   display: flex;
   justify-content: center;
@@ -28,4 +41,37 @@ h1 {
 .rotated_line:hover {
   transform: rotate(10deg);
   transition: transform 3s ease-in-out;
+}
+.Oa_table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Oa_table__teacher--1 {
+  background-color: #fff0f0;
+  color: #8b8200;
+}
+
+#Oa_table__teacher--2 {
+  background-color: #eeff00;
+  color: #00008b;
+}
+
+#Oa_table__teacher--3 {
+  background-color: #04ff00;
+  color: #e600f2;
+}
+
+#Oa_table__student--1 {
+  background-color: #ff3019;
+  color: #f3fa8c;
+}
+#Oa_table__student--2 {
+  background-color: #fff0f5;
+  color: #ff8c00;
+}
+#Oa_table__student--3 {
+  background-color: #604aff;
+  color: #ff8c00;
 }

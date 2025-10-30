@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
-    <h1>Ви завітали на пробну сторінку Короля Романа</h1>
-    <h1>Прикалад використання заголоволків</h1>
-    <h2>Прикалад заголоволку другого рівня</h2>
-    <h3>Прикалад заголоволку третього рівня</h3>
-    <h4>Прикалад заголоволку четвортого рівня</h4>
-    <h5>Прикалад заголоволку п'ятого рівня</h5>
-    <h6>Прикалад заголоволку шостого рівня</h6>
+    <header id="Page_begin">
+      <h1>Ви завітали на пробну сторінку Короля Романа</h1>
+      <h1>Прикалад використання заголоволків</h1>
+      <h2>Прикалад заголоволку другого рівня</h2>
+      <h3>Прикалад заголоволку третього рівня</h3>
+      <h4>Прикалад заголоволку четвортого рівня</h4>
+      <h5>Прикалад заголоволку п'ятого рівня</h5>
+      <h6>Прикалад заголоволку шостого рівня</h6>
 
-    <h1>Прикалад використання горизонтальних лінійок</h1>
-    <hr class="Common_line" />
-    <hr class="wide_line" />
-    <hr class="colored_line" />
-    <hr class="big_line" />
-    <hr class="small_line" />
-    <hr class="big_line rotated_line" />
-
+      <h1>Прикалад використання горизонтальних лінійок</h1>
+      <hr class="Common_line" />
+      <hr class="wide_line" />
+      <hr class="colored_line" />
+      <hr class="big_line" />
+      <hr class="small_line" />
+      <hr class="big_line rotated_line" />
+    </header>
     <p>
       Білка, білочка, стрибунка Лускає горіхи лунко. Чує цілий ліс і бір, Що у
       білочки обід.<br />
@@ -72,7 +73,61 @@
       </dl>
     </ul>
     <h1>Приклад використання гіперпосилань</h1>
-    <a href="https://www.oa.edu.ua/" target="_blank">Острозька академія</a>
-    <a href="\README.md" target="_blank">Відалений файл</a>
+    <a href="https://www.oa.edu.ua/" target="_blank">
+      гіперпосилання на сторінку острозької академії</a
+    >
+    <br />
+    <a href="\README.md" target="_blank">приклад відкриття текстового файлу</a>
+    <br />
+    <br />
+    <a href="#Page_begin">Посилання на початок &uparrow;</a>
+    <br />
+    <br />
+    <a href="#Page_end">Посилання на кінець &downarrow;</a>
+    <br />
+    <br />
+    <a
+      href="mailto:roman.korol@oa.edu.ua"
+      title="клацніть тут, щоб написати мені листа"
+    >
+      Напишіть мені
+    </a>
+    <h1>Приклад використання вставки малюнків</h1>
+    <a
+      title="сайт острозької академії"
+      href="https://www.oa.edu.ua/"
+      target="_blank"
+    >
+      <img src="https://dekanat.oa.edu.ua/images/oa_logo.png" />
+    </a>
+
+    <h1>Приклад використання таблиць</h1>
+    <table class="Oa_table">
+      <thead>
+        <tr>
+          <th id="header1">Список викладачів</th>
+          <th id="header2">Список студентів</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li id="Oa_table__teacher--1">Красюк Богдан Віталійович</li>
+              <li id="Oa_table__teacher--2">Прус Андрій Анатолійович</li>
+              <li id="Oa_table__teacher--3">Зубенко Ігор Ростиславович</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li id="Oa_table__student--1">Ковальчук Максим Олександрович</li>
+              <li id="Oa_table__student--2">Ващенко Роман Андрійович</li>
+              <li id="Oa_table__student--3">Мікулич Анастасія Борисівна</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
